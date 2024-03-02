@@ -20,6 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+
+		//comentario
 		$this->load->view('welcome_message');
 	}
 }
